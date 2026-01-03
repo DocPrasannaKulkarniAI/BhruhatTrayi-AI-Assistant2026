@@ -1,0 +1,31 @@
+# API Keys and Secrets
+.env
+secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Embeddings (large files - optional)
+# sloka_embeddings.npy
+# sloka_metadata.parquet
